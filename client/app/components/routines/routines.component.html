@@ -1,0 +1,22 @@
+<form class="well" (submit)="addRoutine($event)">
+    <div class="form-group">
+        <input type="text" [(ngModel)]="type" name="type" class="form-control" placeholder="Add Routines">
+    </div>
+</form>
+
+<div class="routines-list">
+    <table class="table table-responsive table-striped">
+        <tr>
+            <th>routine</th>
+            <th>username</th>
+            <th>action</th>
+        </tr>
+        <tr *ngFor="let routine of routines">
+            <td><input type="checkbox" [checked]="routine.isDone" (click)="updateStatus(routine)"> {{routine.type}}
+            </td>
+            <td>{{routine.username}}</td>
+            <td><input type="button" (click)="deleteRoutine(routine._id)" value="Delete" class="btn btn-danger">
+            </td>
+        </tr>
+    </table>
+</div>

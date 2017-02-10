@@ -1,0 +1,32 @@
+{
+  "name": "mean-basic-admin",
+  "version": "1.0.0",
+  "description": "This is a simple application in AngularJS2, MongoDB, Express, Node.js",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Francesco Capodanno",
+  "license": "GPL-3.0",
+  "dependencies": {
+    "@angular/common": "^2.4.0",
+    "@angular/compiler": "^2.4.0",
+    "@angular/core": "^2.4.0",
+    "@angular/forms": "^2.4.0",
+    "@angular/platform-browser": "~2.4.0",
+    "@angular/platform-browser-dynamic": "~2.4.0",
+    "@angular/router": "~3.4.0",
+    "@angular/upgrade": "~2.4.0",
+    "@ng-bootstrap/ng-bootstrap": "^1.0.0-alpha.18",
+    "JSONStream": "^1.3.0",
+    "angular-in-memory-web-api": "~0.1.16",
+    "body-parser": "^1.15.2",
+    "ejs": "^2.5.5",
+    "express": "^4.14.0",
+    "mongodb": "^2.2.21",
+    "mongojs": "^2.4.0",
+    "reflect-metadata": "^0.1.8",
+    "rxjs": "^5.0.1",
+    "zone.js": "^0.7.2"
+  }
+}
